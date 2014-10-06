@@ -189,7 +189,7 @@
 				</artists>
 				<misc></misc>
 			</entry>
-			<entry eid="002" photos="2014_0050;2014_0051;2014_0053;2014_0054;2014_0055;2014_0056;2014_0052">
+			<entry eid="002" photos="2014_0050;2014_0051;2014_0053;2014_0055;2014_0056;2014_0052;2014_0054">
 				<date>2014-08-30;06:30 PM</date>
 				<artists>
 					<artist type="0" instrument="Vocal">Vidwan Sanjay Subramanyam</artist>
@@ -214,7 +214,7 @@
 				</artists>
 				<misc></misc>
 			</entry>
-			<entry eid="005" photos="2014_0031;2014_0032;2014_0033;2014_0034;2014_0035;2014_0036;2014_0037;2014_0038;2014_0039;2014_0040;2014_0041">
+			<entry eid="005" photos="2014_0032;2014_0035;2014_0038;2014_0039;2014_0040;2014_0031;2014_0033;2014_0034;2014_0036;2014_0037;2014_0041">
 				<date>2014-08-31;06:30 PM</date>
 				<artists>
 					<artist type="0" instrument="Vocal">Vidwan Saketharaman</artist>
@@ -254,7 +254,7 @@
 				</artists>
 				<misc></misc>
 			</entry>
-			<entry eid="009" photos="2014_0001;2014_0002;2014_0080;2014_0081">
+			<entry eid="009" photos="2014_0001;2014_0002;2014_0080">
 				<date>2014-09-04;06:30 PM</date>
 				<artists>
 					<artist type="0" instrument="Saxophone">Vidwan Kadri Gopalanath</artist>
