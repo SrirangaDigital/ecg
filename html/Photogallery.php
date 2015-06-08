@@ -43,7 +43,7 @@ $ArtistId=$_GET['ArtistId'];
 			<img src="images/jubilee.png" alt="cover"/><br />
 			<p>(1962 - 2012)<br />Golden jubilee celebrations<br />9th September 2013</p><br />
 			<p>
-				<span class="subtitle"><a href="Yearwise.php?year=2014" >2014 Program List</a></span><br />
+				<span class="subtitle"><a href="Yearwise.php?year=2015" >2015 Program List</a></span><br />
 			</p>
 			
 <?php 

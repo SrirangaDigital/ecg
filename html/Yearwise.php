@@ -41,7 +41,7 @@
 			<img src="images/jubilee.png" alt="cover"/><br />
 			<p>(1962 - 2012)<br />Golden jubilee celebrations<br />9th September 2013</p><br />
 			<p>
-				<span class="subtitle"><a href="Yearwise.php?year=2014" >2014 Program List</a></span><br />
+				<span class="subtitle"><a href="Yearwise.php?year=2015" >2015 Program List</a></span><br />
 			</p>
 		</div>
 <?php
@@ -133,10 +133,10 @@ while($array=mysqli_fetch_row($result))
 	
 	if($array[4]!=NULL)
 	{
-		$result1=mysqli_query($Connection,"select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate limit 1");
+		$result1=mysqli_query($Connection,"select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous = '$array[4]' and Date_Format(EventDate,'%Y') = '$year' order by EventDate limit 1");
 		$array1=mysqli_fetch_row($result1);
 		$StartDate=$array1[0];
-		$result1=mysqli_query($Connection,"select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate desc limit 1");
+		$result1=mysqli_query($Connection,"select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous = '$array[4]' and Date_Format(EventDate,'%Y') = '$year' order by EventDate desc limit 1");
 		$array1=mysqli_fetch_row($result1);
 		$EndDate=$array1[0];
 		
