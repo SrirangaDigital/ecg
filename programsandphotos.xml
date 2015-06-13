@@ -202,7 +202,8 @@
 			<entry eid="003" photos="">
 				<date>2015-09-19;06:30PM</date>
 				<artists>
-					<artist type="0" instrument="Vocal Duet">Vidhushi Akkarai Subbalakshmi and Akkarai Swarnalatha</artist>
+					<artist type="0" instrument="Vocal Duet">Vidhushi Akkarai Subbalakshmi</artist>
+					<artist type="0" instrument="Vocal Duet">Vidhushi Akkarai Swarnalatha</artist>
 					<artist type="0" instrument="Violion">Vidwan Rahul</artist>
 					<artist type="0" instrument="Mridangam">Vidwan U Jayachandra Rao</artist>
 					<artist type="0" instrument="Ghatam">Vidwan Omkar</artist>
