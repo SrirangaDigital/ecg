@@ -58,11 +58,13 @@
 <?php
 	mysqli_set_charset($Connection, "utf8");
 	if($search!="" && $search!= "Search for an artist"){
-		$result=mysqli_query($Connection,"select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event where Artist regexp '$search'");
+		$query = "select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event where Artist like '%" . $search . "%'";
+		$result=mysqli_query($Connection, $query);
 	}
 
 	else{
-		$result=mysqli_query($Connection,"select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event WHERE Artist REGEXP '$Artist'");
+		$query = "select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event WHERE Artist like '%" . $Artist . "%'";
+		$result=mysqli_query($Connection, $query);
 	}
 ?>
 		<div class="about_index_program">
