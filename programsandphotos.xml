@@ -181,6 +181,148 @@
 		</photo>
 	</ec>
 	<ec>
+		<mmedia year="2016">
+			<entry eid="001" photos="">
+				<date>2016-09-05</date>
+				<artists>
+					<artist type="0" instrument="Nadaswara">Vidwan Krishnamurthy and Party</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="002" photos="">
+				<date>2016-09-06</date>
+				<artists>
+					<artist type="0" instrument="Vocal Duet">Vidwan Krishna Mohan</artist>
+					<artist type="0" instrument="Vocal Duet">Vidwan Ramkumar Mohan</artist>
+					<artist type="0" instrument="Violin">Vidwan L. Ramakrishnan</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Trichur R Mohan </artist>
+					<artist type="0" instrument="Ghatam">Vidwan Kovai Suresh</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="003" photos="">
+				<date>2016-09-07</date>
+				<artists>
+					<artist type="0" instrument="Chitraveena">Vidwan Ravi Kiran</artist>
+					<artist type="0" instrument="Violin">Vidushi Akkarai Subbalakshmi</artist>
+					<artist type="0" instrument="Mridangam">Vidwan K.V. Prasad</artist>
+					<artist type="0" instrument="Ghatam">Vidwan G.S. Ramanjunam</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="004" photos="">
+				<date>2016-09-08</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan T.M. Krishna</artist>
+					<artist type="0" instrument="Violin">Vidwan Sriramkumar</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Manoj Siva</artist>
+					<artist type="0" instrument="Ghatam">Vidwan Gururprasanna</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="005" photos="">
+				<date>2016-09-09</date>
+				<artists>
+					<artist type="0" instrument="Saxaphone">Vidwan Kadri Gopalnath</artist>
+					<artist type="0" instrument="Violin">Vidushi Kanyakumari</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Harikumar</artist>
+					<artist type="0" instrument="Tabla">Vidwan Rajendra Nakod</artist>
+					<artist type="0" instrument="Morching">Vidwan Rajasekar</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="006" photos="">
+				<date>2016-09-10</date>
+				<artists>
+					<artist type="0" instrument="Carnatic-Hindustani Jugalbandi">Vidushi Sriranjini and Vidushi Gayatri</artist>
+					<artist type="0" instrument="Violin">Vidwan Kodampally Gopakumar</artist>
+					<artist type="0" instrument="Harmonium">Vidwan Veerabhadraiah Hiremath</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Ravishankar Sharma</artist>
+					<artist type="0" instrument="Tabla">Ustad Kiran Yavagal</artist>
+				</artists>
+				<misc></misc>
+			</entry>				
+			<entry eid="007" photos="">
+				<date>2016-09-11;08.00AM</date>
+				<artists></artists>
+				<misc>Sri Sathyanarayana Pooja</misc>
+			</entry>
+			<entry eid="008" photos="">
+				<date>2016-09-11</date>
+				<artists>
+					<artist type="0" instrument="Violin-Veena-Sarangi-Sitar Jugalbandhi">Vidwan H.K. Venkatram</artist>
+					<artist type="0" instrument="Violin-Veena-Sarangi-Sitar Jugalbandhi">Vidwan Ashwin Anand</artist>
+					<artist type="0" instrument="Violin-Veena-Sarangi-Sitar Jugalbandhi">Pandit Murad Ali</artist>
+					<artist type="0" instrument="Violin-Veena-Sarangi-Sitar Jugalbandhi">Pandit Fateh Ali</artist>
+					<artist type="0" instrument="Mridangam">Vidwan H.S. Sudheendra</artist>
+					<artist type="0" instrument="Tabla">Ustad Udayrajkarpur</artist>
+				</artists>
+				<misc></misc>
+			</entry>			
+			<entry eid="009" photos="">
+				<date>2016-09-12</date>
+				<artists>
+					<artist type="0" instrument="Sarod">Pandit Rajiv Taranath</artist>
+					<artist type="0" instrument="Tabla">Ustad Udayrajkarpur</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="010" photos="">
+				<date>2016-09-13</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan TNS Krishna</artist>
+					<artist type="0" instrument="Violin">Vidwan Mathur Srinidhi</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Thiruvarur Bhaktavatsala</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan B.S. Purushotham</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="011" photos="">
+				<date>2016-09-14</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan Unnikrishnan</artist>
+					<artist type="0" instrument="Violin">Vidwan M.A. Sundareshwaran</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Thiruvarur Bhaktavatsala</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan B.S. Purushotham</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="012" photos="">
+				<date>2016-09-15</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan Maharajapuram Ramachandran</artist>
+					<artist type="0" instrument="Violin">Vidwan Mathur Srinidhi</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Tumkur B. Ravishankar</artist>
+					<artist type="0" instrument="Ghatam">Vidwan Tumkur B. Shashishankar</artist>
+				</artists>
+				<misc></misc>
+			</entry>			
+			<entry eid="013" photos="">
+				<date>2016-09-16</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidushi Aishwarya Vidya Raghunath</artist>
+					<artist type="0" instrument="Violin">Vidwan Rahul</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Manjunath B.C.</artist>
+					<artist type="0" instrument="Ghatam">Vidwan Bhargava Halambi</artist>
+				</artists>
+				<misc></misc>
+			</entry>			
+			<entry eid="014" photos="">
+				<date>2016-09-17</date>
+				<artists>
+					<artist type="0" instrument="Harmonium">Dr. Ravindra Gururaj Katoti</artist>
+					<artist type="0" instrument="Veena">Vidushi Sahana</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Jayachandra Rao</artist>
+					<artist type="0" instrument="Tabala">Ustad Vishwanath Nakod</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="015" photos="">
+				<date>2016-09-18;10.30AM</date>
+				<artists></artists>
+				<misc>Ganapathi and Rudra Homa by Challakere Brothers</misc>
+			</entry>			
+		</mmedia>			
 		<mmedia year="2015">
 			<entry eid="001" photos="">
 				<date>2015-09-17;06:30PM</date>
