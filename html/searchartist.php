@@ -47,6 +47,9 @@
 			<p>
 				<span class="subtitle"><a href="Yearwise.php?year=2016">2016 Program List</a></span><br />
 			</p>
+			<p>
+				<span class="subtitle"><a href="sketches.html" >Sketches of 2015 Programs</a></span><br />
+			</p>
 		</div>
 		
 		<div class="about_index_program">

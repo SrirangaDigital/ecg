@@ -54,6 +54,9 @@
 			<p>
 				<span class="subtitle"><a href="Yearwise.php?year=2017" >2017 Program List</a></span><br />
 			</p>
+			<p>
+				<span class="subtitle"><a href="sketches.html" >Sketches of 2015 Programs</a></span><br />
+			</p>
 		</div>
 <?php
 	mysqli_set_charset($Connection, "utf8");

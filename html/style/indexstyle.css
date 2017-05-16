@@ -39,6 +39,7 @@ background-color:#FFDAB9;
 	border: 1px solid $CCCCCC;
 	margin:1.5em 0em 0em 0em;
 }
+
 .name a{
 	color: #DB7D21;
 	font-size: 1em;
@@ -306,6 +307,23 @@ background-color:#FFDAB9;
 .archive:hover{
 	box-shadow:0px 0px 10px #cccccc;
 	border:1px;
+}
+.sketches{
+	width:200px;
+	float:left;
+	margin:1em;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding-top:1em;
+	transition: box-shadow 0.5s; 
+}
+.sketches img{
+	border-radius: 15px 0px 15px 0px;
+	background-repeat:no-repeat;
+	width:200px;
+	border: 1px solid #000000;
+	text-align: center;
 }
 .prtbl{
 	width:100%;
