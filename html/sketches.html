@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SPVGM</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="style/reset.css"  rel="stylesheet">
+<link href="style/indexstyle.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/viewer.css">
+
+</head>
+
+<body>
+<div class="page">
+	<div class="header">
+		<div class="mi2"><img src="images/mi2.png" alt="Instrument"/></div>
+		<div class="mi2"><img src="images/mi2.png" alt="Instrument"/></div>
+		<div class="mi4"><img src="images/mi4.png" alt="Instrument"/></div>
+		<div class="title">Sri Prasanna Vidya Ganapati Mahotsava Charitable Trust&reg;</div>
+		<div class="title_small">8th cross, V.V.Mohalla, Mysore-570002</div>
+		<div class="logo"><img src="images/ganesha.png" alt="Ganesha"/></div>		
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="program.html">Programs</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="mainpage">
+		<div class="widget">
+			<img src="images/jubilee.png" alt="cover"/><br />
+			<p>(1962 - 2012)<br />Golden jubilee celebrations<br />9th September 2013</p><br />
+			<p>
+				<span class="subtitle"><a href="Yearwise.php?year=2016" >2016 Program List</a></span><br />
+			</p>
+		</div>
+		<div class="about_index">
+			<span class="subtitle">Sketches</span><br>
+		<br>
+
+		<div class="gallery"> 
+				<div id="sketchimages">
+            <img data-original="gallery/main/001.jpg" src="gallery/thumb/sketch_001.jpg" alt="">
+            <img data-original="gallery/main/002.jpg" src="gallery/thumb/sketch_002.jpg" alt="">
+            <img data-original="gallery/main/003.jpg" src="gallery/thumb/sketch_003.jpg" alt="">
+            <img data-original="gallery/main/004.jpg" src="gallery/thumb/sketch_004.jpg" alt="">
+            <img data-original="gallery/main/005.jpg" src="gallery/thumb/sketch_005.jpg" alt="">
+            <img data-original="gallery/main/006.jpg" src="gallery/thumb/sketch_006.jpg" alt="">
+            <img data-original="gallery/main/007.jpg" src="gallery/thumb/sketch_007.jpg" alt="">
+            <img data-original="gallery/main/008.jpg" src="gallery/thumb/sketch_008.jpg" alt="">
+            <img data-original="gallery/main/009.jpg" src="gallery/thumb/sketch_009.jpg" alt="">
+            <img data-original="gallery/main/010.jpg" src="gallery/thumb/sketch_010.jpg" alt="">
+            <img data-original="gallery/main/011.jpg" src="gallery/thumb/sketch_011.jpg" alt="">
+            <img data-original="gallery/main/012.jpg" src="gallery/thumb/sketch_012.jpg" alt="">
+   </div>
+		</div>
+	
+		</div>
+		<div class="search">
+			<form method="post" action="searchartist.php">
+				<input class="search_field" type="text" name="search" value="Search for an artist" onclick="if(this.value=='Search for an artist') this.value='';" onblur="if(this.value=='')this.value='Search for an artist';">
+				<input type="submit" class="button" value="" >
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="foot_box">
+			<div class="left">
+				<ul>
+					<li><a href="#">Terms of Use</a></li>
+					<li>|</li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li>|</li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+			<div class="right">
+				&copy;2011 SPVGM Charitable Trust, Mysore. All Rights Reserved
+			</div>
+		</div>
+	</div>
+</div>
+
+  <!-- Scripts -->
+  <script>
+jQuery(window).load(function () {
+  var vieweroptions = {
+        // inline: true,
+        url: 'data-original',
+        ready:  function (e) {
+          console.log(e.type);
+        },
+        show:  function (e) {
+          console.log(e.type);
+        },
+        shown:  function (e) {
+          console.log(e.type);
+        },
+        hide:  function (e) {
+          console.log(e.type);
+        },
+        hidden:  function (e) {
+          console.log(e.type);
+        },
+        view:  function (e) {
+          console.log(e.type, e.detail.index);
+        },
+        viewed:  function (e) {
+          console.log(e.type, e.detail.index);
+          // this.viewer.zoomTo(1).rotateTo(180);
+        }
+      };
+
+    var viewer = new Viewer(document.getElementById('sketchimages'),vieweroptions);
+});
+</script>
+<script src="js/viewer.js"></script>
+
+
+</body>
+
+</html>
