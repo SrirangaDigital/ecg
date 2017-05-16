@@ -181,6 +181,124 @@
 		</photo>
 	</ec>
 	<ec>
+		<mmedia year="2017">
+			<entry eid="001" photos="">
+				<date>2017-08-25</date>
+				<artists>
+					<artist type="0" instrument="Saxophone">Padmashri Dr. Vidwan Kadri Gopalnath</artist>
+					<artist type="0" instrument="Violin">Padmashri Sangeetha Kalanidhi Vidushi Kanyakumari</artist>
+					<artist type="0" instrument="Thavil">Vidwan Triplicane K.Sekar</artist>
+					<artist type="0" instrument="Tabla">Vidwan Rajendra Nakod</artist>
+					<artist type="0" instrument="Morching">Vidwan Rajasekar</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="002" photos="">
+				<date>2017-08-26</date>
+				<artists>
+					<artist type="0" instrument="Vocal Duet">Vidwan Krishna Mohan</artist>
+					<artist type="0" instrument="Vocal Duet">Vidwan Ramkumar Mohan</artist>
+					<artist type="0" instrument="Violin">Vidwan L. Ramakrishnan</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Trichur R Mohan </artist>
+					<artist type="0" instrument="Ghatam">Vidwan Kovai Suresh</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="003" photos="">
+				<date>2017-08-27;10.00 AM</date>
+				<artists></artists>
+				<misc>Sri Sathyanarayana Pooja</misc>
+			</entry>
+			<entry eid="004" photos="">
+				<date>2017-08-27</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan Vijay Siva</artist>
+					<artist type="0" instrument="Vocal support">Vid Prabhath Gokhale - Pramod Gokhale</artist>
+					<artist type="0" instrument="Violin">Vidwan Trivandrum Sampath</artist>
+					<artist type="0" instrument="Mridangam">Vidwan N.C.Bharadwaj</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan Vyasa Vittala</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="005" photos="">
+				<date>2017-08-28</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidushi Dr. Pantula Rama</artist>
+					<artist type="0" instrument="Violin">Vidwan Mutnery Srinivas Narasimha Murthy</artist>
+					<artist type="0" instrument="Mridangam">Vidwan Tumkur B. Ravishankar</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan Vyasa Vittala</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="006" photos="">
+				<date>2017-08-29</date>
+				<artists>
+					<artist type="0" instrument="Hindustani Vocal">Pandit Fayaz Khan</artist>
+					<artist type="0" instrument="Harmonium">Pandit Deepak  Marathe</artist>
+					<artist type="0" instrument="Tabla">Ustad Ravindra Yavagal</artist>
+				</artists>
+				<misc></misc>
+			</entry>				
+			<entry eid="007" photos="">
+				<date>2017-08-30</date>
+				<artists>
+				<artist type="0" instrument="Vocal">Vidwan Sikkil Gurucharan</artist>
+				<artist type="0" instrument="Violin">Vidwan Mathur Srinidhi</artist>
+				<artist type="0" instrument="Mridangam">Padma Vibhushana Vidwan Umayalapuram  K Sivaraman</artist>
+				<artist type="0" instrument="Khanjeera">Vidwan Giridhar Udupa</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="008" photos="">
+				<date>2017-08-31</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan Saket Raman</artist>
+					<artist type="0" instrument="Violin">Vidwan Vittal Rangan</artist>
+					<artist type="0" instrument="Mridangam">Padma Vibhushana Vidwan Umayalapuram  K Sivaraman</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan Guruprasanna</artist>
+				</artists>
+				<misc></misc>
+			</entry>			
+			<entry eid="009" photos="">
+				<date>2017-09-01</date>
+				<artists>
+					<artist type="0" instrument="Sarod">Pandit Rajiv Taranath</artist>
+					<artist type="0" instrument="Tabla">Ustad Udayraj Karpur</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="010" photos="">
+				<date>2017-09-02</date>
+				<artists>
+					<artist type="0" instrument="Vocal">Vidwan T.M.Krishna</artist>
+					<artist type="0" instrument="Vocal Support">Vidushi Sangeetha Sivakumar</artist>
+					<artist type="0" instrument="Violin">Vidwan R.K.Shriram Kumar</artist>
+					<artist type="0" instrument="Mridangam">Vidwan V.V.Ramanamurthy</artist>
+					<artist type="0" instrument="Khanjeera">Vidwan Guruprasanna</artist>
+				</artists>
+				<misc></misc>
+			</entry>
+			<entry eid="011" photos="">
+				<date>2017-09-03;8.00 AM</date>
+				<artists></artists>
+				<misc>Ganapathi -Subramanya-Durga-Rudra Homa by Challakere Brothers</misc>
+			</entry>
+			<entry eid="012" photos="">
+				<date>2017-09-03;12.30 PM</date>
+				<artists></artists>
+				<misc>Poornahuti</misc>
+			</entry>
+			<entry eid="013" photos="">
+				<date>2017-09-03</date>
+				<artists>
+					<artist type="0" instrument="Chitraveena">Vidwan Ravi Kiran</artist>
+					<artist type="0" instrument="Violin">Vidushi Akkarai Subhulakshmi</artist>
+					<artist type="0" instrument="Mridangam">Vidwan V.V.Ramanamurthy</artist>
+					<artist type="0" instrument="Ghatam">Vidwan Arun Kumar</artist>
+				</artists>
+				<misc></misc>
+			</entry>				
+		</mmedia>
 		<mmedia year="2016">
 			<entry eid="001" photos="">
 				<date>2016-09-05</date>
