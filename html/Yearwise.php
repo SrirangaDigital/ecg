@@ -63,7 +63,7 @@
 		
 		<div class="about_index_program">
 			<p class="title">
-					<?php echo "<br>8th cross Ganesha Music Festival : $year <br>"; ?>
+					<?php echo ($year == '2017')? "<br>56th Heritage Music Festival - 2017<br>" : "<br>8th cross Ganesha Music Festival : $year <br>"; ?>
 			</p> <br>
 
 
