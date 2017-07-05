@@ -86,14 +86,14 @@ while($array=mysqli_fetch_row($result))
 	//Extracting Artist Details
 	if($array[3]!=NULL)
 	{
-		$SemicolonSplit=split(";", $array[3]);
+		$SemicolonSplit = explode(";", $array[3]);
 		if(count($SemicolonSplit)>2)
 		{
 			foreach($SemicolonSplit as $ArtDetails)
 			{
 				if(!empty($ArtDetails))
 				{
-					$ColonSplit = split(":", $ArtDetails);
+					$ColonSplit = explode(":", $ArtDetails);
 					$ArtistName=$ColonSplit[1];
 					if($search!="" && $search!= "Search for an artist"){
 						$ArtistName=preg_replace('/ /','%20',$ArtistName);
@@ -111,7 +111,7 @@ while($array=mysqli_fetch_row($result))
 
 		else
 		{
-			$ColonSplit = split(":", $SemicolonSplit[0]);
+			$ColonSplit = explode(":", $SemicolonSplit[0]);
 			$ArtistName=$ColonSplit[1];
 			if($search!="" && $search!= "Search for an artist"){
 				$ArtistName=preg_replace('/ /','%20',$ArtistName);

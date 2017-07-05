@@ -85,14 +85,14 @@ while($array=mysqli_fetch_row($result))
 	$Gallery="";
 	if($array[3]!=NULL)
 	{
-		$SemicolonSplit=split(";", $array[3]);
+		$SemicolonSplit=explode(";", $array[3]);
 		if(count($SemicolonSplit)>2)
 		{
 			foreach($SemicolonSplit as $ArtDetails)
 			{
 				if(!empty($ArtDetails))
 				{
-					$ColonSplit = split(":", $ArtDetails);
+					$ColonSplit = explode(":", $ArtDetails);
 					$ArtistName=$ColonSplit[1];
 					$ArtistName=preg_replace('/ /','%20',$ArtistName);
 					if($search!="" && $search!= "Search for an artist" && preg_match("/$search/i", $ColonSplit[1]))
@@ -114,7 +114,7 @@ while($array=mysqli_fetch_row($result))
 
 		else
 		{
-			$ColonSplit = split(":", $SemicolonSplit[0]);
+			$ColonSplit = explode(":", $SemicolonSplit[0]);
 			$ArtistString= $ColonSplit[1]."-"."         ".$ColonSplit[3];
 		}
 	}

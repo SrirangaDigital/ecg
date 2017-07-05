@@ -56,17 +56,23 @@
 <?php
 	
 	include("connect.php");
-	$Connection=mysql_connect($host,$usr,$pwd);
-	mysql_select_db($db,$Connection);
-	mysql_set_charset("utf8",$Connection);
+	$Connection = new mysqli("$host","$usr","$pwd", "$db");
+	
+	if ($Connection->connect_errno) {
+		
+		echo "Errno: " . $Connection->connect_errno . "\n";
+		echo "Error: " . $Connection->connect_error . "\n";
+		exit;
+	}
+	mysqli_set_charset($Connection,"utf8");
 	if($search!="" && $search!= "Search for an artist")
 	{
-		$result=mysql_query("select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event where Artist regexp '$search'");
+		$result = $Connection->query("select Event_Id,Date_Format(EventDate,'%d-%b-%Y'),Time,Artist,Miscellaneous,Photos,DAYNAME(EventDate) FROM Event where Artist regexp '$search'");
 	}
 ?>
 
-<?php if(mysql_num_rows($result)>0) : ?>
-<?php if($search!="" && $search!= "Search for an artist"): ?>	<p class="search_result"><?php echo mysql_num_rows($result); ?> number of detail(s) found: <?php echo $search; ?>  </p> <?php endif; ?>
+<?php if($result->num_rows > 0) : ?>
+<?php if($search!="" && $search!= "Search for an artist"): ?>	<p class="search_result"><?php echo $result->num_rows; ?> number of detail(s) found: <?php echo $search; ?>  </p> <?php endif; ?>
 <table>
 	<tr>
 	<td>Date</td>
@@ -77,21 +83,21 @@
 $OldMiss="";
 $inserttag="<span class=\"seardstring\"> $0 </span>";
 
-while($array=mysql_fetch_row($result))
+while($array=mysqli_fetch_row($result))
 {
 	$ArtistString="";
 	$Gallery="";
 	//Extracting Artist Details
 	if($array[3]!=NULL)
 	{
-		$SemicolonSplit=split(";", $array[3]);
+		$SemicolonSplit=explode(";", $array[3]);
 		if(count($SemicolonSplit)>2)
 		{
 			foreach($SemicolonSplit as $ArtDetails)
 			{
 				if(!empty($ArtDetails))
 				{
-					$ColonSplit = split(":", $ArtDetails);
+					$ColonSplit = explode(":", $ArtDetails);
 					$ArtistName=$ColonSplit[1];
 					$ArtistName=preg_replace('/ /','%20',$ArtistName);
 					if($search!="" && $search!= "Search for an artist"){
@@ -108,7 +114,7 @@ while($array=mysql_fetch_row($result))
 
 		else
 		{
-			$ColonSplit = split(":", $SemicolonSplit[0]);
+			$ColonSplit = explode(":", $SemicolonSplit[0]);
 			$ArtistName=$ColonSplit[1];
 			$ArtistName=preg_replace('/ /','%20',$ArtistName);
 			if($search!="" && $search!= "Search for an artist"){
@@ -131,12 +137,12 @@ while($array=mysql_fetch_row($result))
 	
 	if($array[4]!=NULL)
 	{
-		$result1=mysql_query("select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate limit 1");
-		$array1=mysql_fetch_row($result1);
-		$StartDate=$array1[0];
-		$result1=mysql_query("select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate desc limit 1");
-		$array1=mysql_fetch_row($result1);
-		$EndDate=$array1[0];
+		$result1 = $Connection->query("select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate limit 1");
+		$array1 = mysqli_fetch_row($result1);
+		$StartDate = $array1[0];
+		$result1 = $Connection->query("select Date_Format(EventDate,'%d-%b-%Y') from Event where Miscellaneous regexp '$array[4]' order by EventDate desc limit 1");
+		$array1 = mysqli_fetch_row($result1);
+		$EndDate = $array1[0];
 		
 		
 		if($array[4]!=$OldMiss)

@@ -59,21 +59,21 @@ $ArtistString="";
 	
 if($array[3]!=NULL)
 {
-	$SemicolonSplit=split(";", $array[3]);
+	$SemicolonSplit=explode(";", $array[3]);
 	if(count($SemicolonSplit)>2)
 	{
 		foreach($SemicolonSplit as $ArtDetails)
 		{
 			if(!empty($ArtDetails))
 			{
-				$ColonSplit = split(":", $ArtDetails);
+				$ColonSplit = explode(":", $ArtDetails);
 				$ArtistString.= "<span class=\"name\" ><a href=\"ArtistDetails.php?ArtisiName=".$ColonSplit[1]."\">".$ColonSplit[1]."</a></span>"."&nbsp&mdash;&nbsp".$ColonSplit[3]."<br>";
 			}
 		}
 	}
 	else
 	{
-		$ColonSplit = split(":", $SemicolonSplit[0]);
+		$ColonSplit = explode(":", $SemicolonSplit[0]);
 		$ArtistString= $ColonSplit[1]."-"."         ".$ColonSplit[3];
 	}
 }
@@ -91,7 +91,7 @@ if($array[3]!=NULL)
 			</table>
 <div class="gallery"> 
 	<?php
-		$SemicolonSplit=split(";", $array[5]);
+		$SemicolonSplit=explode(";", $array[5]);
 		foreach($SemicolonSplit as $PhotoList)
 		{
 			if(!empty($PhotoList))
