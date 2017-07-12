@@ -56,7 +56,7 @@ sub insert_artist()
 	
 	if($sth->rows()==0)
 	{
-		$sth1=$dbh->prepare("INSERT INTO Artist VALUES ('','$artistname')");
+		$sth1=$dbh->prepare("INSERT INTO Artist VALUES (0,'$artistname')");
 		$sth1->execute();
 		$sth1->finish();
 	}

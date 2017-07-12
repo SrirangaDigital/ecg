@@ -23,7 +23,7 @@ $sth11=$dbh->prepare("CREATE TABLE Event (
 Event_Id int(11) NOT NULL AUTO_INCREMENT,
 EventDate DATE,
 Time varchar(100),
-Photos varchar(100),
+Photos varchar(1000),
 Artist varchar(1000),
 Miscellaneous varchar (500),
 PRIMARY KEY (Event_Id)) ENGINE=MyISAM CHARACTER SET utf8 collate utf8_general_ci");
@@ -86,7 +86,7 @@ sub insert_event()
 	$artistDetails =~ s/'/\\'/g;
 	$miscellanious =~ s/'/\\'/g;
 	
-	$sth1=$dbh->prepare("INSERT INTO Event VALUES ('', '$date', '$time', '$photos', '$artistDetails', '$miscellanious')");
+	$sth1=$dbh->prepare("INSERT INTO Event VALUES (0, '$date', '$time', '$photos', '$artistDetails', '$miscellanious')");
 
 	$sth1->execute();
 	$sth1->finish();
