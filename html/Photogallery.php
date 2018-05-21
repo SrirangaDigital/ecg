@@ -119,12 +119,7 @@ if($array[3]!=NULL)
 		<div class="foot_box">
 			<div class="left">
 				<ul>
-					<li><a href="#">Terms of Use</a></li>
-
-					<li>|</li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li>|</li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="http://www.srirangadigital.com/" target="_blank">Designed, Developed and Maintained by <span class="developedby">Sriranga Digital </span> &nbsp;<img class="developedby-logo" src="images/sriranga-logo.png" alt="" /></a></li>
 				</ul>
 			</div>
 			<div class="right">
