@@ -63,8 +63,20 @@
 		
 		<div class="about_index_program">
 			<p class="title">
-					<?php echo ($year == '2017')? "<br>56th Heritage Music Festival - 2017<br>" : "<br>8th cross Ganesha Music Festival : $year <br>"; ?>
-			</p> <br>
+					<?php
+						echo "<br>8th cross Ganesha Music Festival : $year <br>";			
+					?>
+			</p>
+			<p class="resource">
+			<?php
+						if($year == '2018')
+							echo '<br><a href="resources/programList.pdf" target="_blank">Program Booklet</a> | ';
+							echo '<a href="resources/sathyanarayana.pdf" target="_blank">Satyanarayana Pooja</a> | ';
+							echo '<a href="resources/sudarshanaHoma.pdf" target="_blank">Sudarshana Homa</a>';
+									
+							
+					?>
+			<br><br>
 
 
 <?php if(mysqli_num_rows($result)>0) : ?>

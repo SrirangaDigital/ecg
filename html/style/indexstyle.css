@@ -204,6 +204,24 @@ background-color:#FFDAB9;
 	font-weight: bold;
 	text-decoration: underline;
 }
+.mainpage .resource{
+	color: #A0522D;
+	font-size: 1em;
+	font-weight: bold;	
+	text-align: center;
+}
+.mainpage .resource a{
+	color: #A0522D;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.mainpage .resource a:HOVER{
+	color: #A0522D;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
 .mainpage .sign{
 	color: #800000;
 	font-size: 0.9em;
@@ -420,4 +438,7 @@ background-color:#FFDAB9;
 .developedby-logo{
 	height: 20px; 
 	vertical-align: middle;
+}
+.link{
+
 }
