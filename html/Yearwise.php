@@ -69,14 +69,14 @@
 			</p>
 			<p class="resource">
 			<?php
-						if($year == '2018')
+						if($year == '2018'){ 
 							echo '<br><a href="resources/programList.pdf" target="_blank">Program Booklet</a> | ';
 							echo '<a href="resources/sathyanarayana.pdf" target="_blank">Satyanarayana Pooja</a> | ';
-							echo '<a href="resources/sudarshanaHoma.pdf" target="_blank">Sudarshana Homa</a>';
-									
+							echo '<a href="resources/sudarshanaHoma.pdf" target="_blank">Sudarshana Homa</a><br>';
+						}
 							
 					?>
-			<br><br>
+			<br />
 
 
 <?php if(mysqli_num_rows($result)>0) : ?>
