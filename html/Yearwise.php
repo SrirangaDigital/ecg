@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>SPVGM</title>
 <link href="style/reset.css" rel="stylesheet">
-<link href="style/indexstyle.css"  rel="stylesheet" >
+<link href="style/indexstyle.css?v=1"  rel="stylesheet" >
 </head>
 <?php 
 	$search="";
